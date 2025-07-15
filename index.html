@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma Bibliothèque - Documents Légaux</title>
+    <title>Ma Bibliothèque - Support et Documents Légaux</title>
     <style>
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
@@ -13,11 +13,29 @@
             padding: 0 20px; 
             color: #333; 
         }
-        h1 { 
+        h1, h2 { 
             color: #000; 
+        }
+        h2 {
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+            margin-top: 40px;
         }
         a { 
             color: #007aff; 
+        }
+        .support-button {
+            display: inline-block;
+            background-color: #007aff; /* Bleu standard iOS */
+            color: #ffffff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+        .support-button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -28,5 +46,10 @@
         <li><a href="politique-de-confidentialite.html">Consulter la Politique de Confidentialité</a></li>
         <li><a href="conditions-generales.html">Consulter les Conditions Générales d'Utilisation</a></li>
     </ul>
+
+    <h2>Support</h2>
+    <p>Pour toute question, suggestion ou demande d'assistance concernant l'application, vous pouvez nous contacter directement par e-mail en cliquant sur le bouton ci-dessous.</p>
+    <a href="mailto:support@mabibliotheque.app" class="support-button">Contacter le support</a>
+
 </body>
 </html>
